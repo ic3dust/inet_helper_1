@@ -1,0 +1,87 @@
+body{
+    background-image: url("gui/background.jpg");
+    background-size: cover;
+    color: rgb(176, 255, 229);
+    -webkit-text-stroke-color: rgb(0, 72, 48);
+    -webkit-text-stroke-width: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainn{
+    position: relative;
+    margin-left: 222px;
+    z-index: 1;
+    -webkit-text-stroke-color: rgb(0, 72, 48);
+    -webkit-text-stroke-width: 1px;
+}
+.mainImg{
+    background-image: url("gui/title.png");
+    position: absolute;
+    margin-top: -94px;
+    margin-left: 195px;
+    z-index: -1;
+}
+.leftPad{
+    background-image: url("gui/leftPad.png");
+        margin-top: 95px;
+        margin-left: 35px;
+        z-index: -1;
+        width: 600px;
+        height: 100px;
+}
+.rightPad{
+    background-image: url("gui/rightPad.png");
+    position: absolute;
+        margin-top: 96px;
+        margin-left: 495px;
+        z-index: -1;
+        width: 800px;
+        height: 125px;
+}
+.col1{
+    margin-left: 75px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.col2{
+    margin-left: 725px;
+    margin-top: -410px;
+}
+.query{
+    font-size: 20px;
+    -webkit-text-stroke-color: rgb(0, 72, 48);
+    -webkit-text-stroke-width: 1px;
+}
+.message1out{
+    text-align: left;
+    font-size: 20px;
+    color: rgb(176, 255, 229);
+    -webkit-text-stroke-color: rgb(0, 72, 48);
+    -webkit-text-stroke-width: 0.5px;
+}
+.lad{
+    font-size: 18px;
+    margin-left: 23px;
+}
+.message2out{
+    text-align: left;
+    color: rgb(176, 255, 229);
+    -webkit-text-stroke-color: rgb(0, 72, 48);
+    -webkit-text-stroke-width: 0.5px;
+}
+.diff{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1;
+}
+.noselect{
+        /*-webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+         user-select: none;*/
+}
+.upper{
+    z-index: 1;
+    position: relative;
+}

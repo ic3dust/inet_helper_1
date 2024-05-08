@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="subs.js"></script>
+    <script src="comp.js"></script>
+    <title>InetHelperApp by Ostap Stepura 2024 for 559</title>
+    <div><h1 class="mainn">InetHelperApp by Ostap Stepura 2024 for 559</h1></div>
+    <style>
+    input, textarea,
+    label{
+        white-space: pre-wrap; 
+        word-wrap: break-word;
+    }
+    </style>
+    </head>
+    <body>
+        <!--<div class="rightPad"></div>
+        <div class="leftPad"></div>
+        <div class="mainImg"></div>-->
+        <div class="col1">
+        <div class="query upper"><h3>↓ ↓ ↓ Для заміни стрілок на лапки ↓ ↓ ↓</h3></div><br><br>
+        <textarea rows="10" cols="59" id="quotesFix"></textarea><br><br>
+        <button onclick="Function1()" class="upper"><h3>ДО ЛАДУ!</h3></button><br><br>
+        <label id = "message1out" class="message1out"></label><br>
+        </div>
+        <div class="col2">
+        <div class="query upper"><h3>↓ ↓ ↓ Для порівняння ↓ ↓ ↓</h3></div><br>
+        <div class="upper"><h3>Фрагмент 1: </h3></div>
+        <br>
+        <textarea rows="10" cols="59" id="compare1"></textarea><br><br>
+        <div class="upper"><h3>Фрагмент 2: </h3></div>
+        <br>
+        <textarea rows="10" cols="59" id="compare2"></textarea><br><br>
+        <button onclick="Function2()" class="upper"><h3>Порівняймо</h3></button><br><br>
+        <label for="message2out" class="diff upper"><b><i>Відмінності:</i></b></label>
+        <br>
+        <label id="message2out" class="message2out upper"></label>
+        <br><br>
+        </div>
+    </body>
+</html>
